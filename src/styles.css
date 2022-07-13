@@ -1,0 +1,105 @@
+/*your CSS code here*/
+
+body {
+  font-family: Helvetica, Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.intro {
+  background-color: #092521;
+  padding: 38px;
+  color: #fff;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.prof {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+.contactinfo {
+  font-size: 15px;
+  padding: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #eeeeee;
+  margin-bottom: 25px;
+}
+.subheading {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #092521;
+
+  padding-bottom: 10px;
+  padding-left: 60px;
+  text-transform: uppercase;
+}
+
+.icon {
+  color: #092521;
+  padding: 8px;
+}
+.date {
+  font-size: 16px;
+  color: #092521;
+  font-weight: bold;
+}
+
+.jobtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #5b473b;
+}
+.jobdesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #092521;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 15px;
+}
+img {
+  border-radius: 50%;
+}
+.social {
+  padding-left: 28px;
+}
+.data {
+  font-weight: 400;
+}
+.explist {
+  line-height: 25px;
+}
+
+.skills ul li {
+  display: flex;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -15px;
+}
+
+.skills ul li .skill_prog {
+  width: 60%;
+  height: 5px;
+  position: relative;
+}
+.skills ul li .skill_prog span {
+  position: absolute;
+  height: 100%;
+  background: #2f5a78;
+  padding-right: 50px;
+}
